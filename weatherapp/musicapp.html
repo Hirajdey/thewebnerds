@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Music App</title>
+ 
+    <style type="text/css">
+      
+      h2{
+        font-size: 33px;
+      }
+
+      .tapBox{
+        height:100px;
+        cursor: pointer;
+      }
+      .tapBox1{
+        background-color:#381460;
+      }
+      .tapBox2{
+        background-color:#b21f66;
+      } 
+      .tapBox3{
+        background-color:#fe346e;
+      } 
+      .tapBox4{
+        background-color:#ffbd69;
+      } 
+      .tapBox5{
+        background-color:#be79df;
+      } 
+      .tapBox6{
+        background-color:#fbcffc;
+      } 
+      .tapBox7{
+        background-color:#5b8c5a;
+      } 
+
+
+      .bableDropWrap{
+        position: relative;
+        padding-top:400px;
+      }
+
+      .bableDropWrap .bableDrop{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        bottom: 0;
+        left:20%;
+        z-index: -1;
+      }      
+
+
+      @keyframes jump {
+        0%{
+          bottom: 0%;
+          left:20%;
+        }
+        50%{
+          bottom: 80%;
+          left: 50%;
+        }
+        100%{
+          bottom: 0%;
+          left: 80%;
+        }
+      }
+
+    </style>
+
+  </head>
+  <body>
+  
+
+    <section class="musicApp py-4">
+      
+    <div class="container border pt-3">
+      <div class="row justify-content-center">
+        <div class="col col-12 col-md-6 text-center">
+          <h2>Tap Music</h2>
+          <p>Make music With Only One Tap</p>  
+        </div>
+      </div>
+
+      <div class="bableDropWrap">
+        <div class="row tapBoxRow pt-5 mt-5">
+
+            <div class="col tapBox tapBox1">
+              <audio class="sounds" src="assets/piano-mp3/A0.mp3"></audio>
+            </div>
+            
+            <div class="col tapBox tapBox2">
+              <audio class="sounds" src="assets/piano-mp3/A1.mp3"></audio>
+            </div>
+
+            <div class="col tapBox tapBox3">
+              <audio class="sounds" src="assets/piano-mp3/A2.mp3"></audio>
+            </div>
+
+            <div class="col tapBox tapBox4">
+              <audio class="sounds" src="assets/piano-mp3/A4.mp3"></audio>
+            </div>
+
+            <div class="col tapBox tapBox5">
+              <audio class="sounds" src="assets/piano-mp3/A5.mp3"></audio>
+            </div>
+
+            <div class="col tapBox tapBox6">
+              <audio class="sounds" src="assets/piano-mp3/A6.mp3"></audio>
+            </div>
+
+            <div class="col tapBox tapBox7">
+              <audio class="sounds" src="assets/piano-mp3/A7.mp3"></audio>
+            </div>
+        </div>
+      </div><!--  eo bableDrop -->
+    </div>
+
+    </section>
+
+
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="jsproject.js"></script>
+  </body>
+</html>
